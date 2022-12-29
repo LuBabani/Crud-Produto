@@ -1,0 +1,12 @@
+senha = input("Digite sua senha: ")
+i = input("Confirme sua senha: ")
+
+while (i!=senha):
+    print("As senhas informadas são diferentes, por gentileza confirme novamente a primeira senha informada")
+    i = input("confirme novamente sua senha ")
+
+print("As senhas estão corretas")
+
+
+
+    
